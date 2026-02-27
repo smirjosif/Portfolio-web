@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smir Yousif | Data Analyst</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+       <div class="logo">
+    <img src="profile.jpg" alt="Smir Photo" class="logo-img">
+    <span>SMIR.</span>
+</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Smir Yousif Eisa</h1>
+            <h2>Data Analyst | Business Analyst</h2>
+            <p>Transforming raw data into strategic business insights using SQL, Power BI & Python.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="hero-image">
+            <img src="profile.jpg" alt="Profile Photo">
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-container">
+        <p>
+        Data Analyst with hands-on experience in Power BI, SQL Server, Excel, and Python.
+        Completed internship at INFIDATA where I worked on real-world datasets and dashboards.
+        Strong background in data cleaning, transformation, and visualization.
+        </p>
+
+        <div class="education">
+            <h3>Education</h3>
+            <ul>
+                <li>Bachelor in Information Technology – Sudan</li>
+                <li>Master in Computer Applications (MCA) – India</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+    <h2 class="section-title">Technical Skills</h2>
+
+    <div class="skills-grid">
+
+        <!-- SQL -->
+        <div class="skill-card sql">
+            <img src="https://img.icons8.com/color/96/microsoft-sql-server.png"/>
+            <h3>SQL (SQL Server)</h3>
+            <p>
+                Advanced querying, joins, optimization and performance tuning.
+                Built analytical queries for KPI tracking and reporting.
+                Designed structured database solutions for business insights.
+            </p>
+            <div class="progress">
+                <span style="width: 90%"></span>
+            </div>
+        </div>
+
+        <!-- Python -->
+        <div class="skill-card python">
+            <img src="https://img.icons8.com/color/96/python.png"/>
+            <h3>Python (Pandas, NumPy)</h3>
+            <p>
+                Data cleaning and transformation using Pandas.
+                Numerical analysis and automation using NumPy.
+                Applied for EDA and statistical insights extraction.
+            </p>
+            <div class="progress">
+                <span style="width: 85%"></span>
+            </div>
+        </div>
+
+        <!-- Excel -->
+        <div class="skill-card excel">
+            <img src="https://img.icons8.com/color/96/microsoft-excel-2019.png"/>
+            <h3>Excel</h3>
+            <p>
+                Advanced formulas (VLOOKUP, Pivot Tables).
+                Data validation and conditional formatting.
+                Business reporting and dashboard creation.
+            </p>
+            <div class="progress">
+                <span style="width: 88%"></span>
+            </div>
+        </div>
+<!-- pgAdmin 4 -->
+<div class="skill-card pgadmin">
+    <img src="https://img.icons8.com/color/96/postgreesql.png"/>
+    <h3>pgAdmin 4 (PostgreSQL)</h3>
+    <p>
+        Database management and query execution using pgAdmin 4.
+        Designed and managed PostgreSQL databases with structured schemas.
+        Performed data extraction, filtering, and performance tuning.
+    </p>
+    <div class="progress">
+        <span style="width: 80%"></span>
+    </div>
+</div>
+        <!-- Power BI -->
+        <div class="skill-card powerbi">
+            <img src="https://img.icons8.com/color/96/power-bi.png"/>
+            <h3>Power BI</h3>
+            <p>
+                Built interactive dashboards with DAX & Power Query.
+                Designed star schema models and KPIs.
+                Delivered actionable insights for decision-makers.
+            </p>
+            <div class="progress">
+                <span style="width: 92%"></span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+    <h2 class="section-title">Projects & Technologies</h2>
+
+    <div class="projects-grid">
+
+        <div class="project-card" onclick="openProject('atliq.html')">
+            <i class="fa-solid fa-hotel"></i>
+            <h3>AtliQ Hospitality Dashboard</h3>
+        </div>
+
+        <div class="project-card" onclick="openProject('blinkit.html')">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <h3>Blinkit Sales Dashboard</h3>
+        </div>
+
+        <div class="project-card" onclick="openProject('bank.html')">
+            <i class="fa-solid fa-building-columns"></i>
+            <h3>Bank Loan Dashboard</h3>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-container">
+        <a href="mailto:Smiryousif33@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
